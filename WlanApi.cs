@@ -229,7 +229,7 @@ namespace NativeWifi
                     // each time cause otherwise it caches the IP information.
                     foreach (NetworkInterface netIface in NetworkInterface.GetAllNetworkInterfaces())
                     {
-                        Guid netIfaceGuid =REDACTED Guid(netIface.Id);
+                        Guid netIfaceGuid = new Guid(netIface.Id);
                         if (netIfaceGuid.Equals(info.interfaceGuid))
                         {
                             return netIface;
@@ -723,7 +723,7 @@ namespace NativeWifi
                     }
                     while (deadIfacesGuids.Count != 0)
                     {
-                        Guid deadIfaceGuid =REDACTED;
+                        Guid deadIfaceGuid = deadIfacesGuids.Dequeue();
                         ifaces.Remove(deadIfaceGuid);
                     }
 

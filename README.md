@@ -24,6 +24,10 @@ Third-party Native Wifi API wrapper (Monfort Software Engineering / CodePlex Man
 
 Open `ManagedWifi.sln` in Visual Studio.
 
+## Requirements
+
+- Visual Studio 2005 to 2013, .NET Framework 2.0
+
 ## Attribution and provenance
 
 - **Assembly company:** Monfort Software Engineering

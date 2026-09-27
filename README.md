@@ -2,6 +2,8 @@
 
 Third-party Native Wifi API wrapper (Monfort Software Engineering / CodePlex ManagedWifi). WlanClient opens a WLAN handle, enumerates WlanInterface objects, and raises connection/reason notifications; WifiExample lists each interface's available SSIDs and signal quality. Open `ManagedWifi.sln`. Original authorship stays with Monfort; see THIRD_PARTY_NOTICES.md.
 
+Working copy from my Historical Dev folder.
+
 **Source last updated:** 2016-03-08  
 **Language:** C#  
 **Target:** v2.0  
